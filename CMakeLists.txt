@@ -13,3 +13,10 @@ ci_make_app(
         CINDER_PATH ${CINDER_PATH}
         INCLUDES    ${APP_PATH}/include
 )
+
+set_target_properties(
+        cinder_project_templateApp
+        PROPERTIES
+        MACOSX_BUNDLE TRUE
+        MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/Info.plist"
+)
