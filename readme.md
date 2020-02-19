@@ -1,4 +1,4 @@
-#cinder_project_template
+# `cinder_project_template`
 [Cinder](https://libcinder.org)のプロジェクトテンプレート。  
 [CLion](https://www.jetbrains.com/ja-jp/clion/)向け。  
 cmake 使用。
